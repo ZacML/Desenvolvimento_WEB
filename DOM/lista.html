@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="/DOM/lista.js"></script>
+
+    <style>
+        li {
+            background-color:#daf08c;
+            padding: 10px;
+            margin: 5px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Lista de Itens Dinâmica</h1>
+    <input type="text" id="novoItem" placeholder="Digite um item">
+    <button onclick="adicionarItem()">Adicionar Item</button>
+
+    <ul id="lista"></ul>
+
+</body>
+</html>
